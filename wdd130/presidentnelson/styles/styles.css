@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgb(252,166,201);
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+section{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+p {
+    margin-left: 150px;
+    padding: 10px;
+    text-align: left;
+    color: black;
+  }
+h2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+footer{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 75px;
+}
