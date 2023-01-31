@@ -3,6 +3,7 @@ div{
 }
 #content {
     margin: 0 auto;
+    max-width: 1600px;
 }
 nav a{
     text-align: center;
@@ -51,6 +52,7 @@ footer {
 }
 footer a {
     color: #A8DCD7;
+    text-decoration: none;
 }
 footer a:hover {
     color: darkred
