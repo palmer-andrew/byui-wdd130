@@ -1,0 +1,24 @@
+
+body {
+    background-color: grey;
+}
+h1{
+    padding: 0px;
+    border: 0px
+}
+h1 img{
+    width: 100%;
+    padding: 0px;
+}
+h2 {
+    padding-left: 9.5%;
+}
+h2 img {
+    width: 25%;
+    display: inline;
+    border-radius: 50%;
+    padding: 1%;
+    background-color: #3e3e3e;
+}
+
+

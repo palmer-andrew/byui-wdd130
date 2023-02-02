@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Sofia+Sans:wght@300&display=swap');
 div{
     max-width: 1600px;
 }
@@ -9,6 +10,7 @@ nav a{
     text-align: center;
     color: #A8DCD7;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: darkred;
@@ -23,21 +25,32 @@ nav a:hover {
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: #A8DCD7;
 }
 body {
     background-color: #F0DAD2;
+    font-family: 'Sofia Sans', 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #4A8282;
+    font-family: 'Angkor', 'Sofia Sans', sans-serif;
 }
-
 .book, .join {
     background-color: #62BFB8;
     color: darkred;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: darkred;
@@ -45,10 +58,14 @@ header {
 }
 .msg {
     background-color: #62BFB8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #4A8282;
     color: #3D3D3D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #A8DCD7;
@@ -63,21 +80,45 @@ footer p {
 footer p:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title{
     color: #3B918A;
+    font-family: 'Angkor', 'Sofia Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #3D3D3D;
 }
 .msg h2{
     color: darkred;
+    font-family: 'Angkor', 'Sofia Sans', sans-serif;
 }
 .msg p{
     color: #3D3D3D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo, .icon {
     width: 80px;
 }
 #hero-img {
     width: 100%
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #4A8282;;
 }
