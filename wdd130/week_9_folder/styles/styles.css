@@ -1,0 +1,48 @@
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 75 px;
+}
+section.msg {
+    height: 300px;
+    overflow: scroll;
+    font-size: 18px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+section.card {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 500px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.read {
+    grid-row: 1/2;
+}
+.views {
+    grid-row: 2/3;
+}
+.comments {
+    grid-row: 3/4;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
