@@ -177,59 +177,49 @@ h3 {
 }
 
 
-
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    background-color: #2196F3;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-
-
 #pears-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 200px auto;
     background-color: #2196F3;
+
+ }
+#pears {
+    padding-top: 100px;
+}
+#pears-pic {
+    padding-left: 500px;
+    padding-right: 500px;
+    width: 100%;
+}
+#pears-text {
     padding-left: 300px;
     padding-right: 300px;
-
 }
-
-#pears {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    background-color: #2196F3;
+#apples-container {
+    background-color: #A86738;
 }
-
-  #pears-pic {
-    grid-column: 1/2;
-    grid-row:2/3;
-  }
-  #pears-text {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
 #apples {
-
-
-    grid-column: 1/3;
-    grid-row: 3/4;
-    background-color: #A86738;
-    align-items: center;
+    padding-top: 100px;
 }
-
-
-
-
-  content {
-    width:100%;
-  }
-
-.pears {
-    background-color: #A86738;
+#apples-pic {
+    padding-left: 500px;
+    padding-right: 500px;
+    width: 100%;
 }
-
+#apples-text {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+#apricots-container {
+    background-color: #04AA6D;
+}
+#apricots {
+    padding-top: 100px;
+}
+#apricots-pic {
+    padding-left: 500px;
+    padding-right: 500px;
+    width: 100%;
+}
+#apricots-text {
+    padding-left: 300px;
+    padding-right: 300px;
+}
