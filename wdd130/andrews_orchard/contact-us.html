@@ -3,41 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <title>Andrew's Orchard | Contact Us</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&family=Roboto&display=swap');
     </style>
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+        <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction2() {
+              var popup2 = document.getElementById("myPopup2");
+              popup2.classList.toggle("show2");
+            }
+            </script>
+            <script>
+                // When the user clicks on <div>, open the popup
+                function myFunction3() {
+                  var popup3 = document.getElementById("myPopup3");
+                  popup3.classList.toggle("show3");
+                }
+                </script>
 </head>
-
 <body>
     <div id="content">
-    <header>
-        <a id = "logo-link" href ="index.html" >
-            <img class = "logo" src = "images/andrews_orchard_logo.png" alt = "Andrew's Orchard Logo"></a>
-        <a id = "home-link" href = "index.html">HOME</a>
-        <a id = "fruit-link" href = "fruit.html">FRUIT</a>
-        <a id = "vegetables-link" href = "vegetables.html">VEGETABLES</a>
-        <a id = "contact-us-link" href="contact-us.html">CONTACT US</a>
-        <h2>204-761-7048</h2>
-    </header>
+
+        <header>
+            <a id="logo-link" href="index.html" >
+                <img class = "logo" src="images/andrews_orchard_logo.png" alt = "Andrew's Orchard Logo"></a>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="fruit.html">FRUIT</a>
+                <a href="vegetables.html">VEGETABLES</a>
+                <a href="contact-us.html">CONTACT US</a>
+                <h2>204-761-7048</h2>
+            </nav>
+        </header>
     <div id = "hero">
         <div id = "hero-box">
             <img id = "hero-img" src = "images/apples-resize-min.jpg" alt="A Bucket of Fresh Apples">
         </div>
         <section id = "hero-msg">
-            <h1>Contact Us for More Details</h1>
-            <h2>Order Early - Enjoy Locally Grown Fruits & Veggies</h2>
+            <h1>Contact Us: We're Happy to Help!</h1>
+            <h2>Order Early - Enjoy Local Fruits & Veggies</h2>
         </section>
     </div>    
-    <main>
-        <section id = "welcome-message">
+    <main class="contact-us-grid">
+        <section class = "contact-us-main-message">
             <h2>We're just a phone call away</h2>
             <p>Ever wondered what the best type of jam for toast is?</p>
             <p>Or how many eggs goes into a baker's dozen?</p>
             <p>We have! And we love to chat about growing, harvesting our favourite foods.</p>
             <h3>So give us a ring or stop by! We'd love to chat!</h3>
-                 
         </section>
 
         <div class="container">
@@ -57,29 +80,12 @@
             <input type="submit" value="Submit">
         </form>
         </div>
-        <section id = "welcome-message">
-            <h2>Hurry - Call now before it's too late!</h2>
-        </section>
-        <div id = "fruit-section">
-            <img id = "fruit-pic-shake" src ="images/apricot-resize-min.jpg" alt="Fresh Apricot">
-            <section id = "fruit-msg">
-                <h2>Fresh Fruit</h2>
-                <p>The fruit that we offer at Andrew's Orchard is fresh, juicy and delicious. We have a wide selection of fruit available, such as apples, pears, strawberries and blueberries. All of our fruit is grown using organic practices, which means no harmful chemicals or chemical fertilizers are used in the growing process. We also use sustainable methods to ensure that our fruit is harvested in its peak season for maximum flavor and nutrition. Our fruit comes straight from the farm to your table - full of vitality and flavors! Come visit us today to sample some of Manitoba's finest fruit!  </p>
-            </section>
-        </div>
-
-        <div id = "vegetable-section">
-            <section class = "vegetable-msg">
-                <h2>Fresh Veggies</h2>
-                <p>The vegetables available at Andrew's Orchard are freshly picked from our gardens to provide maximum flavor and nutrition. Our vegetables include root vegetables such as potatoes, carrots and beets, as well as green vegetables such as broccoli, cauliflower, kale and spinach. All of our vegetables are grown using sustainable farming methods to ensure the highest quality vegetables for your table. Visit us today to try some of Manitoba's best vegetables! </p>
-            </section>
-            <img id = "vegetable-pic-shake" src ="images/corn-resize-min.jpg" alt="Fresh Corn">
-        </div>
-        <section id = "find-us-msg">
+        <section id = "fruit-page-find-us-msg">
             <h2>How to Find Us</h2>
             <h3>Just 2 Miles West of Brandon on Hwy 1A West</h3>
             <h3>(Same Location as PBC Multi Media)</h3>
         </section>
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1217.113313165651!2d-100.02620170453089!3d49.842056871585534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1678946124925!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"    
     </main>
     <footer>
@@ -89,7 +95,7 @@
         <a href = "vegetables.html">Vegetables</a>
         <a href= "contact-us.html">Contact Us</a>
         <a href= "site-plan.html">Site Plan</a>
-    </footer>
+    </footer>ß
     </div>
 </body>
 </html>
